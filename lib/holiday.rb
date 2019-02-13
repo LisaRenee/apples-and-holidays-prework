@@ -91,7 +91,8 @@ holiday_hash.each do |season, holidays|
     supplies.each do |supply|
 
       if "BBQ" == supply
-      binding.pry #  holiday == holiday_array_bbq
+        holiday_array_bbq.push(holiday)
+
       end
 
     end
