@@ -100,4 +100,5 @@ holiday_hash.each do |season, holidays|
   end
 
   end
+  holiday_array_bbq
 end
