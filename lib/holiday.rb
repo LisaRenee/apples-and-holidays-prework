@@ -85,8 +85,8 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 binding.pry
   hash_holidays = [:christmas][:fourth_of_july][:thanksgiving][new_years]
-  holiday_hash.each do |key, value|
-    puts "#{key}"
+  hash_holidays.each do |value|
+    puts "#{value}"
 
   end
 end
