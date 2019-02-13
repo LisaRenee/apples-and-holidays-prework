@@ -86,5 +86,6 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |key, value|
     if "#{key}" == ["BBQ"]
       puts "#{key}"
+    end
   end
 end
