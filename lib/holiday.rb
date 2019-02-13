@@ -83,7 +83,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-binding.pry
+
   hash_holidays = [:christmas][:fourth_of_july][:thanksgiving][new_years]
   hash_holidays.each do |value|
     puts "#{value}"
