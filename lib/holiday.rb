@@ -85,7 +85,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
   hash_holidays = [:christmas][:fourth_of_july][:memorial_day][:thanksgiving][:new_years]
-  hash_holidays.collect do |key, value|
+  hash_holidays.each do |key, value|
     if "#{key}" == "BBQ"
       "#{key}"
     end
